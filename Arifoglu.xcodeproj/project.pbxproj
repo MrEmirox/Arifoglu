@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6EAF306C1BCA828F009B8381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF306B1BCA828F009B8381 /* AppDelegate.swift */; };
-		6EAF306E1BCA828F009B8381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF306D1BCA828F009B8381 /* ViewController.swift */; };
+		6EAF306E1BCA828F009B8381 /* AnasayfaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF306D1BCA828F009B8381 /* AnasayfaViewController.swift */; };
 		6EAF30711BCA828F009B8381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF306F1BCA828F009B8381 /* Main.storyboard */; };
 		6EAF30731BCA828F009B8381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF30721BCA828F009B8381 /* Assets.xcassets */; };
 		6EAF30761BCA828F009B8381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF30741BCA828F009B8381 /* LaunchScreen.storyboard */; };
 		6EAF30811BCA828F009B8381 /* ArifogluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF30801BCA828F009B8381 /* ArifogluTests.swift */; };
 		6EAF308C1BCA828F009B8381 /* ArifogluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF308B1BCA828F009B8381 /* ArifogluUITests.swift */; };
+		6EAF309A1BCA8976009B8381 /* BannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF30991BCA8976009B8381 /* BannerTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		6EAF30681BCA828F009B8381 /* Arifoglu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arifoglu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAF306B1BCA828F009B8381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EAF306D1BCA828F009B8381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EAF306D1BCA828F009B8381 /* AnasayfaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewController.swift; sourceTree = "<group>"; };
 		6EAF30701BCA828F009B8381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EAF30721BCA828F009B8381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EAF30751BCA828F009B8381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		6EAF30871BCA828F009B8381 /* ArifogluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArifogluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAF308B1BCA828F009B8381 /* ArifogluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArifogluUITests.swift; sourceTree = "<group>"; };
 		6EAF308D1BCA828F009B8381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EAF30991BCA8976009B8381 /* BannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				6EAF306B1BCA828F009B8381 /* AppDelegate.swift */,
-				6EAF306D1BCA828F009B8381 /* ViewController.swift */,
+				6EAF309C1BCAE7CB009B8381 /* ViewControllers */,
 				6EAF306F1BCA828F009B8381 /* Main.storyboard */,
+				6EAF309B1BCA9884009B8381 /* TableviewCells */,
 				6EAF30721BCA828F009B8381 /* Assets.xcassets */,
 				6EAF30741BCA828F009B8381 /* LaunchScreen.storyboard */,
 				6EAF30771BCA828F009B8381 /* Info.plist */,
@@ -123,6 +126,22 @@
 				6EAF308D1BCA828F009B8381 /* Info.plist */,
 			);
 			path = ArifogluUITests;
+			sourceTree = "<group>";
+		};
+		6EAF309B1BCA9884009B8381 /* TableviewCells */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF30991BCA8976009B8381 /* BannerTableViewCell.swift */,
+			);
+			name = TableviewCells;
+			sourceTree = "<group>";
+		};
+		6EAF309C1BCAE7CB009B8381 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF306D1BCA828F009B8381 /* AnasayfaViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +211,7 @@
 				TargetAttributes = {
 					6EAF30671BCA828F009B8381 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = MF6BPKJTF8;
 					};
 					6EAF307B1BCA828F009B8381 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -255,7 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAF306E1BCA828F009B8381 /* ViewController.swift in Sources */,
+				6EAF309A1BCA8976009B8381 /* BannerTableViewCell.swift in Sources */,
+				6EAF306E1BCA828F009B8381 /* AnasayfaViewController.swift in Sources */,
 				6EAF306C1BCA828F009B8381 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,10 +417,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Arifoglu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tutamgida.Arifoglu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -407,10 +433,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Arifoglu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tutamgida.Arifoglu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
