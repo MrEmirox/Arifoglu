@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
     
     
-    //Bence çalışır artık.
+    //Bence çalışır artık.4
   }
 
   override func didReceiveMemoryWarning() {
